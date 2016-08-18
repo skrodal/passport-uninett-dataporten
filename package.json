@@ -1,0 +1,49 @@
+{
+  "name": "passport-uninett-dataporten",
+  "version": "1.1.0",
+  "description": "Dataporten authentication strategy for Passport.",
+  "keywords": [
+    "passport",
+    "dataporten",
+    "auth",
+    "authn",
+    "authentication",
+    "identity"
+  ],
+  "author": {
+    "name": "Simon Skrødal",
+    "email": "simon.skrodal@uninett.no",
+    "url": "http://www.uninett.no/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/skrodal/passport-uninett-dataporten.git"
+  },
+  "bugs": {
+    "url": "http://github.com/skrodal/passport-uninett-dataporten/issues"
+  },
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {
+    "passport-oauth2": "1.x.x"
+  },
+  "devDependencies": {
+    "make-node": "0.3.x",
+    "mocha": "1.x.x",
+    "chai": "2.x.x",
+    "chai-passport-strategy": "1.x.x",
+    "proxyquire": "1.4.x"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha --require test/bootstrap/node test/*.test.js"
+  }
+}

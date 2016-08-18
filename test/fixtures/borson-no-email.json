@@ -1,0 +1,11 @@
+{
+    "user"     : {
+        "userid"       : "1",
+        "userid_sec"   : [
+            "feide:borson@olderdalen.no"
+        ],
+        "name"         : "Bor Borson",
+        "profilephoto" : "photo.jpg"
+    },
+    "audience" : "ABC123"
+}

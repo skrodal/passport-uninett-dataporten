@@ -1,0 +1,9 @@
+{
+  "user": {
+    "userid": "1",
+    "userid_sec": ["feide:borson@olderdalen.no"],
+    "name": "Bor Borson",
+    "email" : "bor.borson@olderdalen.no"
+  },
+  "audience": "ABC123"
+}

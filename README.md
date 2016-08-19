@@ -86,6 +86,3 @@ If the client does not have access to a required scope (e.g. `userid-feide`), th
 ## License
 
 [The MIT License](http://opensource.org/licenses/MIT)
-
-Copyright (c) 2011-2016 Jared Hanson <[http://jaredhanson.net/](http://jaredhanson.net/)>
-
